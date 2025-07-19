@@ -1,0 +1,56 @@
+/* FONDO PRINCIPAL Y FUENTE GLOBAL */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #FFFFFF;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.5s ease;
+}
+
+/* TÍTULO DESTACADO */
+.main-title {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(159, 159, 159);
+    text-align: center;
+    padding: 30px 0 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(1, 0, 0, 0.4);
+}
+image{
+    align-items: center;
+}
+
+/* SUBTÍTULO CON ESTILO */
+.subtitulo {
+    font-size: 20px;
+    color: #E0E0E0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin: 0 auto 30px;
+    display: inline-block;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+    line-height: 1.6;
+}
+
+/* SIDEBAR MODERNO */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #1f1c2c, #38383b);
+    border-radius: 0 16px 16px 0;
+    padding: 30px 20px;
+    box-shadow: 4px 0 20px rgba(0,0,0,0.4);
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] a {
+    color: #FFFFFF;
+}
+
+[data-testid="stSidebar"] a:hover {
+    color: #FF4C60;
+    text-decoration: underline;
+}

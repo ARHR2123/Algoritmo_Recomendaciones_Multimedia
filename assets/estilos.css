@@ -1,0 +1,151 @@
+
+[data-testid="stAppViewContainer"] {
+    background-color: #0F0F0F;
+    color: #E5E5E5;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Títulos principales */
+.main-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #E50914;
+    padding: 15px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Sidebar estilo Netflix */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #1C1C1C, #000000);
+    padding: 25px;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 4px 0 15px rgba(229, 9, 20, 0.2);
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] a {
+    color: #FFFFFF;
+}
+
+[data-testid="stSidebar"] a:hover {
+    color: #E50914;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Línea divisoria personalizada */
+hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+
+/* Personalizar botón (opcional) */
+div.stButton > button {
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+div.stButton > button:hover {
+    background-color: #B20710;
+    cursor: pointer;
+}
+.sub-text {
+    font-size: 18px;
+    color: #CCCCCC;
+    padding: 10px 0;
+}
+.alert-box {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-left: 6px solid #8B0000;
+    border-radius: 6px;
+    color: white;
+}
+
+/* Estilo para el boton de Recomendar */
+
+.stButton>button {
+    background: linear-gradient(135deg, #FF416C, #FF4B2B);  /* Degradado rojo-rosado */
+    margin-left: 35%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(255, 65, 108, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: black;
+
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(255, 75, 43, 0.7);
+    color: white;
+}
+
+/* Para ponerle efecto a las imágenes con zoom */
+
+.recommendation-card img {
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.recommendation-card img:hover {
+    transform: scale(1.05);
+}
+
+.recommendation-card p {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Diseño del select */
+
+.stSelectbox > div > div > select {
+        background-color: #141414;
+        color: #e50914;  /* rojo Netflix */
+        font-weight: 600;
+        font-size: 18px;
+        padding: 8px 12px;
+        border-radius: 5px;
+        border: none;
+    }
+    .stSelectbox > div > div > select:focus {
+        outline: none;
+        box-shadow: 0 0 5px #e50914;
+    }
+
+/* Diseño Subtítulo */
+
+.subtitulo {
+    text-align: center;
+    font-size: 18px;
+    color: #CCCCCC;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-family: 'Segoe UI', sans-serif;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 15px 25px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.1);
+    margin-left: 8%;
+}
+

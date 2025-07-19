@@ -1,0 +1,10 @@
+venv/
+
+__pycache__
+
+.env
+recomendacion_music2.txt
+movie_list.pkl
+similarity.pkl
+song_list.pkl
+song_similarity.pkl
