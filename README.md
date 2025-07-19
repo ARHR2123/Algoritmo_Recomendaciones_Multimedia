@@ -63,9 +63,12 @@ streamlit run Inicio.py
 ### 7. ¡Listo!
 Se abrirá un servidor local en tu navegador donde podrás disfrutar del sistema de recomendaciones.
 
-📬 Contacto
+### 📬 Contacto
 Desarrollado por René Alejandro Herrería
+<br>
 📧 [alejandrorene19@gmail.com]
+<br>
 🔗 www.linkedin.com/in/rené-herrería-84b669307
+<br>
 🐙 https://github.com/ARHR2123
 
