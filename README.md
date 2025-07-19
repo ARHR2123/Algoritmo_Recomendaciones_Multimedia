@@ -57,17 +57,17 @@ Debe contener los siguientes archivos entrenados:
 ### 6. Crear una cuenta en Kaggle
 Kaggle: https://www.kaggle.com, y generar un API Person.
 
-### 6. En el archivo ".env.example": 
+### 7. En el archivo ".env.example": 
 En ese archivo pegar la clave API que generó la plataforma Kaggle, esto con el fin de consumir sus datos.
 <br>
 Luego quitamos la extención ".example".
 
-### 6. Inicia la aplicación web
+### 8. Inicia la aplicación web
 
 ```bash
 streamlit run Inicio.py
 ```
-### 7. ¡Listo!
+### 9. ¡Listo!
 Se abrirá un servidor local en tu navegador donde podrás disfrutar del sistema de recomendaciones.
 
 ### 📬 Contacto
