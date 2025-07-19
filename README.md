@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Made with ❤️ by René Herrería](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)](https://github.com/tu_usuario)
 
 ---
 
