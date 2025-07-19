@@ -36,11 +36,7 @@ git clone https://github.com/ARHR2123/Algoritmo_Recomendaciones_Multimedia.git
 ### 2. Abre el proyecto en tu editor favorito
 📁 Recomendado: Visual Studio Code
 ### 3. Instala las dependencias
-Asegúrate de tener Python 3.12 instalado. Luego ejecuta:
-
-```bash
-pip install -r requirements.txt
-```
+Asegúrate de tener Python 3.12 instalado. Luego de aquello instala todos los paquetes que se va a utilizar en el sistema como es pandas, numpy, ast, entre otros
 ### 4. Ejecuta por consola
 
 ```bash
@@ -54,6 +50,13 @@ Debe contener los siguientes archivos entrenados:
 <ul>similarity.pkl</ul>
 <ul>song_list.pkl</ul>
 <ul>song_similarity.pkl</ul>
+
+### 6. Crear una cuenta en Kaggle
+Kaggle: https://www.kaggle.com, y crear un API Person.
+
+### 6. En el archivo ".env.example"
+En ese archivo pegar la clave API que generó la plataforma Kaggle, esto con el fin de consumir sus datos.
+Luego quitamos la extención ".example".
 
 ### 6. Inicia la aplicación web
 
