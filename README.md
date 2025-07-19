@@ -35,7 +35,7 @@ git clone https://github.com/ARHR2123/Algoritmo_Recomendaciones_Multimedia.git
 ```
 ### 2. Abre el proyecto en tu editor favorito
 📁 Recomendado: Visual Studio Code
-### 3. Instala las dependencias
+### 3. Instala los Paquetes
 Asegúrate de tener Python 3.12 instalado. Luego de aquello instala todos los paquetes que se va a utilizar en el sistema como es pandas, numpy, ast, entre otros
 ### 4. Ejecuta por consola
 
