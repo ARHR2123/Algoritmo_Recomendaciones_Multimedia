@@ -36,8 +36,11 @@ git clone https://github.com/ARHR2123/Algoritmo_Recomendaciones_Multimedia.git
 ### 2. Abre el proyecto en tu editor favorito
 📁 Recomendado: Visual Studio Code
 ### 3. Instala los Paquetes
-Asegúrate de tener Python 3.12 instalado. Luego de aquello instala todos los paquetes que se va a utilizar en el sistema como es pandas, numpy, ast, entre otros
-### 4. Ejecuta por consola
+Asegúrate de tener Python 3.12 instalado. 
+<br>
+Luego de aquello instala todos los paquetes que se va a utilizar en el sistema como es <strong>pandas, numpy, ast, entre otros</strong>
+
+### 4. Ejecuta los siguientes comandos por consola
 
 ```bash
 python recomendacion_peliculas.py
@@ -45,17 +48,18 @@ python recomendacion_music.py
 ```
 ### 5. Verifica la carpeta /modelo
 Debe contener los siguientes archivos entrenados:
-
+<ul>Modelos.txt</ul>
 <ul>movie_list.pkl</ul>
 <ul>similarity.pkl</ul>
 <ul>song_list.pkl</ul>
 <ul>song_similarity.pkl</ul>
 
 ### 6. Crear una cuenta en Kaggle
-Kaggle: https://www.kaggle.com, y crear un API Person.
+Kaggle: https://www.kaggle.com, y generar un API Person.
 
-### 6. En el archivo ".env.example"
+### 6. En el archivo ".env.example": 
 En ese archivo pegar la clave API que generó la plataforma Kaggle, esto con el fin de consumir sus datos.
+<br>
 Luego quitamos la extención ".example".
 
 ### 6. Inicia la aplicación web
